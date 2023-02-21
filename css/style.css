@@ -1632,7 +1632,7 @@ header .search-form-wrapper {
 .product-deatils-wrapper .price-area p {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #14b0b6;
+  color: var(--primary-color);
   margin-top: 0.3rem;
 }
 
@@ -1672,7 +1672,7 @@ header .search-form-wrapper {
   height: 4.7rem;
   width: 18rem;
   display: flex;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .nice-number input {
@@ -1698,8 +1698,6 @@ header .search-form-wrapper {
 
 .cart-area-wrapper .add-cart {
   border-radius: 0.6rem;
-  margin-left: 2rem;
-  background-color: #14b0b6;
   display: flex;
   align-items: center;
   padding: 0 1.6rem;
@@ -1708,7 +1706,6 @@ header .search-form-wrapper {
 }
 
 .cart-area-wrapper .add-cart:hover {
-  background: #222;
   color: #fff;
 }
 
@@ -1928,7 +1925,7 @@ header .search-form-wrapper {
   top: 0;
   height: 100%;
   width: 0;
-  background-color: #14b0b6;
+  background-color: var(--primary-color);
   transition: 0.3s;
   z-index: -1;
   border-radius: 0.6rem;
@@ -1974,7 +1971,7 @@ span {
 
 .item-discription-area .discription-tab-element .box-area .review-box {
   padding: 2rem;
-  background-color: #14b0b6;
+  background-color: var(--primary-color);
   border-radius: 0.6rem;
 }
 
@@ -2013,7 +2010,7 @@ span {
 }
 
 .add-reviw-area .btn-write span:hover {
-  color: #14b0b6;
+  color: var(--primary-color);
 }
 
 .add-reviw-area.contact-area {
@@ -2323,12 +2320,7 @@ span {
   display: block;
   width: 100%;
   border: none;
-  background-color: #14b0b6;
   border-radius: 3rem;
-}
-
-.checkout-main-area .order-place-wrapper .box .btn-area button:hover {
-  background-color: #222;
 }
 
 .checkout-main-area .order-place-wrapper .box .b-none {

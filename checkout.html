@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-   
-<!-- Mirrored from web-themes.xyz/html/maria/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Feb 2023 20:51:24 GMT -->
+
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <!-- title -->
-      <title>Checkout - Maria Drugstore</title>
+      <title>PharmaShop</title>
       <!-- favicon -->
       <link href="img/favicon.html" type="image/png" rel="icon">
       <!-- all css link -->
@@ -23,8 +22,8 @@
       <link href="css/style.css" rel="stylesheet" type="text/css">
       <link href="css/responsive.css" rel="stylesheet" type="text/css">
       <link href="css/myStyles.css" rel="stylesheet" type="text/css">
-   </head>
-   <body>
+</head>
+<body>
       <!-- start preloader -->
       <div class="preloader">
          <img class="lazy-load" src="img/preloader.svg" alt="img"/>
@@ -163,7 +162,7 @@
                         <h2>Checkout</h2>
                         <div>
                            <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                              <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
                               <li class="breadcrumb-item active">Commander</li>
                            </ol>
                         </div>
@@ -338,45 +337,41 @@
                      <div class="modal-close" data-dismiss="modal" >
                         <i class="fal fa-times"></i>
                      </div>
-                     <ul class="nav nav-pills mb-3" id="pills-tab">
+                     <ul class="nav nav-pills mb-3">
                         <li class="nav-item">
-                           <a class="nav-link active" data-toggle="pill" href="#pills-si">SIGN IN</a>
+                           <a class="nav-link active" data-toggle="pill" href="#pills-si">SE CONNECTER</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" data-toggle="pill" href="#pills-su">SIGN UP</a>
+                           <a class="nav-link" data-toggle="pill" href="#pills-su">S'INSCRIRE</a>
                         </li>
                      </ul>
-                     <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="pills-si">
                            <form action="#" class="mt_20 needs-validation" novalidate="">
                               <div class="input_group">
-                                 <label for="sign-in-for">Email address or Username*</label>
+                                 <label for="sign-in-for">Adresse mail or Nom utilisateur*</label>
                                  <input id="sign-in-for" type="email" class="form-control" required="">
                               </div>
                               <div class="input_group mt_10">
-                                 <label for="sign-in-for-2">Password*</label>
+                                 <label for="sign-in-for-2">Mot de passe*</label>
                                  <input id="sign-in-for-2" type="password" class="form-control" required="">
                               </div>
                               <div class="remember-area">
                                  <div class="check-group">
                                     <input type="checkbox" id="rem">
-                                    <label for="rem">Remember Me</label>
+                                    <label for="rem">Se souvenir de moi</label>
                                  </div>
-                                 <a href="#">Lost your password?</a>
+                                 <a href="#">Mot de passe oublié</a>
                               </div>
                               <div class="sign-btn-area">
-                                 <button type="submit" class="button w-100">SIGN IN</button>
+                                 <button type="submit" class="button w-100">CONNEXION</button>
                               </div>
                               <div class="or-sign">
-                                 <p>or sign in with</p>
+                                 <p>ou se connecter avec</p>
                                  <div class="or-sign-btn">
                                     <a class="button btn-google" href="#">
                                     <i class="fab fa-google"></i>
-                                    <span>login with Google</span>
-                                    </a>
-                                    <a class="button btn-facebook" href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>login with Facebook</span>
+                                    <span>Google</span>
                                     </a>
                                  </div>
                               </div>
@@ -385,32 +380,32 @@
                         <div class="tab-pane fade" id="pills-su">
                            <form action="#" class="mt_20 needs-validation" novalidate="">
                               <div class="input_group">
-                                 <label for="sign-up-for">Email address or Username*</label>
+                                 <label for="sign-up-for">Adresse mail or Nom utilisateur*</label>
                                  <input id="sign-up-for" type="email" class="form-control" required="">
                               </div>
                               <div class="input_group mt_10">
-                                 <label for="sign-up-for-2">Phone*</label>
-                                 <input id="sign-up-for-2" type="text" class="form-control" required="">
+                                 <label for="sign-in-for-2">Mot de passe*</label>
+                                 <input id="sign-in-for-2" type="password" class="form-control" required="">
+                              </div>
+                              <div class="input_group mt_10">
+                                 <label for="sign-in-for-2">Confirmer mot de passe*</label>
+                                 <input id="sign-in-for-2" type="password" class="form-control" required="">
                               </div>
                               <div class="remember-area policy">
                                  <div class="check-group">
-                                    <input type="checkbox" id="policy" class="form-check-input" required="">
-                                    <label for="policy" class="form-check-label">I agree to the <a href="#">privacy policy</a> * </label>
+                                    <input type="checkbox" id="policy-1" class="form-check-input" required="">
+                                    <label for="policy-1" class="form-check-label">J'accepte votre <a href="#">politique de confidentialité</a> * </label>
                                  </div>
                               </div>
                               <div class="sign-btn-area">
-                                 <button type="submit" class="button w-100">SIGN UP</button>
+                                 <button type="submit" class="button w-100">VALIDER</button>
                               </div>
                               <div class="or-sign">
-                                 <p>or sign in with</p>
+                                 <p>ou s'inscrire avec</p>
                                  <div class="or-sign-btn">
                                     <a class="button btn-google" href="#">
                                     <i class="fab fa-google"></i>
-                                    <span>login with Google</span>
-                                    </a>
-                                    <a class="button btn-facebook" href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <span>login with Facebook</span>
+                                    <span>Google</span>
                                     </a>
                                  </div>
                               </div>
