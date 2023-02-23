@@ -603,7 +603,8 @@
 	}
 	.home-area .home-text-area .btn-area .btn-home-2.ml_20,
 	.slider-home .home-text-area .btn-area .btn-home-2.ml_20 {
-		margin-left: 1rem;
+		margin-left: 0.5rem;
+    	margin-top: 0.5rem;
 	}
 	.product-main-area {
 		padding: 0 0 6rem;
