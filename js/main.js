@@ -199,12 +199,12 @@ $(document).ready(function () {
         to: 500,
         grid: false,
         skin: "round",
-        min:0,
-        max:1000,
+        min:200,
+        max:50000,
         from:20,
         to:800,
         values_separator: "-",
-        prefix: "$"
+        // prefix: "$"
     });
     /*----------------------------
         nice number
